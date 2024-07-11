@@ -1,6 +1,7 @@
 from sqlalchemy import Integer, String
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from crossfit_api.contrib.models import BaseModel
+from crossfit_api.atleta.models import AtletaModel
 
 
 class CentroTreinamentoModel(BaseModel):
